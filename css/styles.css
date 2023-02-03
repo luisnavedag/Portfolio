@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+align-items: center;
+background-color: #4914e1;
+opacity: 0.9;
+
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture{
+    border-radius: 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.profile-name{
+    margin-left: 2rem;
+    color: white;
+    text-align: center;
+}
+#nav{
+    display: flex;
+    width: 100vh;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.barnav{
+    padding-left: 5rem;
+    gap: 4rem;
+    display: flex;
+}
+.desc{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.desc:hover{
+    color: gray;
+
+}
+/*Background Sobre mi*/
+
+.sobre-mi{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    margin-bottom: -4rem;
+    background-image:url(../assets/img/background.jpg);
+    image-rendering: optimizeQuality;
+    
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+}
+.about-me-desc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foto{
+    border-radius: 20rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.img-profile{
+    display: flex;
+    align-items: center;
+    }
+
+.hability{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+.icon{
+    font-size: 1.7rem;
+    margin-left: 1rem;
+}
+
+/*Mis proyectos*/
+
+.proyectos{
+    
+
+}
+
+.h1-text{
+ text-align: center;
+}
